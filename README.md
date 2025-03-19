@@ -11,6 +11,8 @@ This is a single page application that uses React for the frontend and GraphQL f
 - Integration with HuggingFace API
 - Toggle functionality to switch between AI providers
 
+[Wiki](https://github.com/SachAI2024/fullstack-ai-app/wiki)
+
 ## Project Structure
 
 ```
