@@ -2,32 +2,6 @@
 
 This is a single page application that uses React for the frontend and GraphQL for the backend. The application connects to both OpenAI and HuggingFace APIs and allows users to toggle between them.
 
-Here is the plan [Steps](./todo.md)
-
-## Follow these steps in tutorial 
-[Step1](./tutorial/01-project-overview.md)
-Step 1 is all about project overview this will enable you to understand how the structure of this application is built.
-
-[Step2](./tutorial/02-frontend-setup.md)
-This will help you to understand what steps are involved in building the frontend
-
-[Step3](./tutorial/03-backend-setup.md)
-This is similar steps for backend setup.
-
-[Step4](./tutorial/04-graphql-integration.md)
-This is important step to understand about graphql schema. Details about graphQL is out of scope for this document , there is a dedicated section with handson work and project is available in sach-AI reposotories. 
-
-[Step5](./tutorial/05-ai-integration.md)
-Learn how to integrate the open-AI and huggingface APIs and backend.
-
-[Step6](./tutorial/06-toggle-and-github.md)
-This is for you to understand how to setup your github repo with your project and project work to demonstrate about your work.
-
-[Summary](./tutorial/07-tutorial-summary.md)
-
-Finally summary of the tutorial and good reference link so book mark this page.
-
-
 ## Features
 
 - React frontend with Apollo Client for GraphQL integration
