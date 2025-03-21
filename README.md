@@ -37,6 +37,8 @@ Finally summary of the tutorial and good reference link so book mark this page.
 - Integration with HuggingFace API
 - Toggle functionality to switch between AI providers
 
+  [For more info visit the Wiki page ](https://github.com/SachAI2024/fullstack-ai-app/wiki)
+
 ## Project Structure
 
 ```
@@ -105,6 +107,8 @@ npm run start:frontend
 5. If the native system modules can't provide data, it uses the specified AI provider
 6. The frontend displays the results and allows toggling between AI providers
 
+[For more info visit the Wiki page ](https://github.com/SachAI2024/fullstack-ai-app/wiki)
+
 ## API Integration
 
 ### OpenAI Integration
@@ -128,6 +132,8 @@ The application implements a multi-level data fetching mechanism:
 3. If no data exists, trigger the native system module to populate data
 4. If the native system can't provide data, use the specified AI provider
 
+[For more info visit the Wiki page ](https://github.com/SachAI2024/fullstack-ai-app/wiki)
+
 This ensures efficient data retrieval and fallback mechanisms when data isn't available.
 
 ## Production Deployment
@@ -139,3 +145,5 @@ For production deployment, you would need to:
 3. Set up a production database instead of the in-memory data store
 4. Implement authentication and authorization if needed
 5. Configure CORS properly for your production domains
+
+[For more info visit the Wiki page ](https://github.com/SachAI2024/fullstack-ai-app/wiki)
