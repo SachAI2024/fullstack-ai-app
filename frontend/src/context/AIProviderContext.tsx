@@ -1,9 +1,12 @@
 import React, { useState, createContext, useContext, ReactNode } from 'react';
 
+// Define the type for our AI provider
+export type AIProvider = 'openai' | 'huggingface';
+
 // Define the type for our context value
 type AIProviderContextType = {
-  provider: string;
-  toggleProvider: (newProvider?: string) => void;
+  provider: AIProvider;
+  toggleProvider: (newProvider?: AIProvider) => void;
   isOpenAI: boolean;
   isHuggingFace: boolean;
 };
@@ -23,9 +26,9 @@ interface AIProviderProviderProps {
 
 // Provider component with proper type annotations
 export const AIProviderProvider: React.FC<AIProviderProviderProps> = ({ children }) => {
-  const [provider, setProvider] = useState<string>('openai');
+  const [provider, setProvider] = useState<AIProvider>('openai');
 
-  const toggleProvider = (newProvider?: string): void => {
+  const toggleProvider = (newProvider?: AIProvider): void => {
     if (newProvider && (newProvider === 'openai' || newProvider === 'huggingface')) {
       setProvider(newProvider);
     } else {

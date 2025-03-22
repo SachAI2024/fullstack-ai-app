@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useAIProvider } from '../context/AIProviderContext';
+import { useAIProvider, AIProvider } from '../context/AIProviderContext';
 
 interface AIToggleProps {
-  activeProvider: string;
-  onToggle: (provider: string) => void;
+  activeProvider: AIProvider;
+  onToggle: (provider: AIProvider) => void;
 }
 
 const ToggleContainer = styled.div`
@@ -60,16 +60,3 @@ const AIToggle: React.FC<AIToggleProps> = ({ activeProvider, onToggle }) => {
 };
 
 export default AIToggle;
-
-
-// import React from 'react';
-// import styled from 'styled-components';
-// import { useAIProvider } from '../context/AIProviderContext';
-// import { AIProvider } from '../services/aiService';
-
-// interface AIToggleProps {
-//   activeProvider: AIProvider;
-//   onToggle: (provider: AIProvider) => void;
-// }
-//  export default AIToggle;
-// // ... rest of the file ...
