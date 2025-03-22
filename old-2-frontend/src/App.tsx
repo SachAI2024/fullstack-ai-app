@@ -4,8 +4,8 @@ import { useQuery, useMutation } from '@apollo/client';
 import AIToggle from './components/AIToggle';
 import DataDisplay from './components/DataDisplay';
 import QueryForm from './components/QueryForm';
-import { useAIProvider, AIProvider } from './context/AIProviderContext';
-import { GET_DATA, POPULATE_DATA } from './services/aiService';
+import { useAIProvider } from './context/AIProviderContext';
+import { GET_DATA, POPULATE_DATA, AIProvider } from './services/aiService';
 import './App.css';
 
 const AppContainer = styled.div`

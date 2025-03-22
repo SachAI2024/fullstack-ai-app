@@ -1,6 +1,5 @@
 import React from 'react';
 import { gql } from '@apollo/client';
-import { AIProvider } from '../context/AIProviderContext';
 
 // GraphQL query with provider parameter
 export const GET_DATA = gql`
@@ -23,6 +22,9 @@ export const POPULATE_DATA = gql`
     }
   }
 `;
+
+// Define the type for our AI provider
+export type AIProvider = 'openai' | 'huggingface';
 
 // Define the return type for our hook
 export interface AIProviderHookResult {

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useAIProvider, AIProvider } from '../context/AIProviderContext';
+import { useAIProvider } from '../context/AIProviderContext';
+import { AIProvider } from '../services/aiService';
 
 interface AIToggleProps {
   activeProvider: AIProvider;
