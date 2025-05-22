@@ -12,12 +12,7 @@ type AIProviderContextType = {
 };
 
 // Create context for AI provider with proper types
-const AIProviderContext = createContext<AIProviderContextType>({
-  provider: 'openai',
-  toggleProvider: () => {},
-  isOpenAI: true,
-  isHuggingFace: false
-});
+const AIProviderContext = createContext<AIProviderContextType | undefined>(undefined);
 
 // Define props type for the provider component
 interface AIProviderProviderProps {

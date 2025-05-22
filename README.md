@@ -16,7 +16,7 @@ This is a single page application that uses React for the frontend and GraphQL f
 ## Project Structure
 
 ```
-fullstack-app/
+fullstack-ai-app/
 ├── frontend/                 # React frontend application
 │   ├── src/
 │   │   ├── components/       # React components

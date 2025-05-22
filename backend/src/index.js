@@ -5,9 +5,6 @@ const typeDefs = require('./schema/schema');
 const resolvers = require('./resolvers/resolvers');
 const DataAPI = require('./datasources/dataAPI');
 
-// Import uuid package for generating IDs
-const { v4: uuidv4 } = require('uuid');
-
 async function startServer() {
   // Create Express application
   const app = express();
